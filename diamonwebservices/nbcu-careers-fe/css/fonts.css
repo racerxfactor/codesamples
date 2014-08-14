@@ -1,0 +1,84 @@
+/*==Fonts import==*/
+/*==Fonts import==*/
+/*==Rock-SansNormal==*/
+@font-face {
+  font-family: 'Rock-SansNormal';
+  src: url("fonts/Rock-SansNormal/rocksansnormal.eot");
+  src: url("fonts/Rock-SansNormal/rocksansnormal.eot?#iefix") format("embedded-opentype"), url("fonts/Rock-SansNormal/rocksansnormal.woff") format("woff"), url("fonts/Rock-SansNormal/rocksansnormal.ttf") format("truetype"), url("fonts/Rock-SansNormal/rocksansnormal.svg#rocksansnormal") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*==Rock-SerifBold==*/
+@font-face {
+  font-family: 'Rock-SerifBold';
+  src: url('fonts/Rock-SerifBold/rockserifbold.eot');
+  src: url('fonts/Rock-SerifBold/rockserifbold.eot?#iefix') format('embedded-opentype'), url('fonts/Rock-SerifBold/rockserifbold.woff') format('woff'), url('fonts/Rock-SerifBold/rockserifbold.ttf') format('truetype'), url('fonts/Rock-SerifBold/rockserifbold.svg#rockserifbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Rock-SansBold';
+  src: url('fonts/Rock-SansBold/rocksansbold.eot');
+  src: url('fonts/Rock-SansBold/rocksansbold.eot?#iefix') format('embedded-opentype'), url('fonts/Rock-SansBold/rocksansbold.woff') format('woff'), url('fonts/Rock-SansBold/rocksansbold.ttf') format('truetype'), url('fonts/Rock-SansBold/rocksansbold.svg#rocksansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*==Helvetica75Bold==*/
+@font-face {
+  font-family: 'Helvetica75Bold';
+  src: url('fonts/Helvetica75Bold/helveticabold-webfont.eot');
+  src: url('fonts/Helvetica75Bold/helveticabold-webfont.eot?iefix') format('eot'), url('fonts/Helvetica75Bold/helveticabold-webfont.woff') format('woff'), url('fonts/Helvetica75Bold/helveticabold-webfont.ttf') format('truetype'), url('fonts/Helvetica75Bold/helveticabold-webfont.svg#webfonttL1z8LzB') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*==Helvetica65Medium==*/
+@font-face {
+  font-family: 'Helvetica65Medium';
+  src: url('fonts/Helvetica65Medium/helvetica65medium.eot');
+  src: url('fonts/Helvetica65Medium/helvetica65medium.eot?iefix') format('eot'), url('fonts/Helvetica65Medium/helvetica65medium.woff') format('woff'), url('fonts/Helvetica65Medium/helvetica65medium.ttf') format('truetype'), url('fonts/Helvetica65Medium/helvetica65medium.svg#webfonttL1z8LzB') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/**==Helvetica45Light==**/
+@font-face {
+  font-family: 'Helvetica45Light';
+  src: url('fonts/Helvetica45Light/HelveticaLight.eot');
+  src: local('☺'), url('fonts/Helvetica45Light/fonts/HelveticaLight.woff') format('woff'), url('fonts/Helvetica45Light/HelveticaLight.ttf') format('truetype'), url('fonts/Helvetica45Light/HelveticaLight.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*==Helvetica46LightItalic*/
+@font-face {
+  font-family: 'Helvetica46LightItalic';
+  src: url('fonts/Helvetica46LightItalic/helvetica46lightitalic.eot');
+  src: url('fonts/Helvetica46LightItalic/helvetica46lightitalic.eot?#iefix') format('embedded-opentype'), url('fonts/Helvetica46LightItalic/helvetica46lightitalic.woff') format('woff'), url('fonts/Helvetica46LightItalic/helvetica46lightitalic.ttf') format('truetype'), url('fonts/Helvetica46LightItalic/helvetica46lightitalic.svg#helvetica46lightitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/**==Helvetica35Thin==**/
+@font-face {
+  font-family: 'Helvetica35Thin';
+  src: url('fonts/Helvetica35Thin/helvetica35thin.eot');
+  src: local('☺'), url('fonts/Helvetica35Thin/helvetica35thin.woff') format('woff'), url('fonts/Helvetica35Thin/helvetica35thin.ttf') format('truetype'), url('fonts/Helvetica35Thin/helvetica35thin.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/**==Helvetica55Roman==**/
+@font-face {
+  font-family: 'Helvetica55Roman';
+  src: url('fonts/Helvetica55Roman/helveticaneueroman-webfont.eot');/* This declaration targets Internet Explorer */
+}
+/*===Helvetica56Italic==*/
+@font-face {
+  font-family: 'Helvetica56Italic';
+  src: url('fonts/Helvetica56Italic/helvetica56italic.eot');
+  src: url('fonts/Helvetica56Italic/helvetica56italic.eot?#iefix') format('embedded-opentype'), url('fonts/Helvetica56Italic/helvetica56italic.woff') format('woff'), url('fonts/Helvetica56Italic/helvetica56italic.ttf') format('truetype'), url('fonts/Helvetica56Italic/helvetica56italic.svg#helvetica56italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica55Roman';
+  src: url(//:) format('no404'), url('fonts/Helvetica55Roman/helveticaneueroman-webfont.woff') format('woff'), url('fonts/Helvetica55Roman/helveticaneueroman-webfont.ttf') format('truetype'), url('fonts/Helvetica55Roman/helveticaneueroman-webfont.svg#webfontv2FP0Cw2') format('svg');
+  font-weight: normal;
+  font-style: normal;/* This declaration targets everything else */
+}

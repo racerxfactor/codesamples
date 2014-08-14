@@ -1,0 +1,278 @@
+/*==Uni_Company_SL.psd==*/
+/* Clearfix */
+.clearfix {
+	display: inline-block;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+
+.clearfix {
+	display:block;
+}
+
+.clear {
+	clear: both;
+}
+/*end: Clearfix */
+
+/*==Global template fixes==*/
+	/*==Stiky footer implementation==*/
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px;
+	/* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 142px;
+	/* .push must be the same height as .footer */
+}
+/*==end:Stiky footer implementation==*/
+
+
+
+/*==end: Global template fixes==*/
+
+
+
+/*==Global variables==*/
+@white: #fff;
+@black: #000;
+
+/*==end:Global variables==*/
+.whiteBG {
+	background-color: @white!important;
+}
+
+/*==Our Company Section==*/
+.col0 {
+	padding:120px 0 50px 0;
+	h2 {
+			font-family: 'Rock-SerifBold';
+			font-size: 22px;
+			line-height: 24px;
+		span {
+			font-size: 18px;
+			line-height: 20px;
+		}
+	}//h2
+}
+
+.titleHolder {
+	width:645px;
+	padding:50px 0 30px 0;
+	h2 {
+		font-family: 'Rock-SansNormal';
+		font-size:63px;
+		line-height:65px;
+		color:@black;
+		padding-bottom:15px;
+	}
+}
+
+.titleHolder,
+.titleHolder p {
+	clear: both;
+	font-size: 20px;
+	line-height: 22px;
+	color: #26232c;
+	font-family: 'Helvetica45Light';
+	a {
+		font-size:15px;
+		line-height:17px;
+		text-decoration:none;
+		color:#400095;
+	}
+}
+
+.imgHolder {
+	padding-bottom:20px;
+}
+
+.boxesHolder {
+	clear:both;
+	padding-bottom:60px;
+}
+
+.box {
+	width:274px;
+	display:inline-block;
+	padding:0 58px 60px 0;
+}
+
+.box:nth-child(3n){
+	padding-right:0px;
+}
+
+.imgHolder,
+.imgHolder img {
+	width:274px;
+	height:190px;
+}
+
+.boxText {
+	padding-bottom:35px;
+	h4 {
+		font-size:20px;
+		line-height:22px;
+		color:#26232c;
+		font-weight:bold;
+		padding-bottom:12px;
+	}
+}
+
+.boxText,
+.boxText div,
+.boxText p {
+	font-family:'Rock-SansNormal';
+	color:#7d7b80;
+	font-size:15px;
+	line-height:17px;
+}
+
+.purpleBtn {
+	clear:both;
+	a {
+		padding:0 20px 0 25px;
+		line-height:36px;
+		border-radius:16px;
+		background:#400095;
+		float:left;
+		span {
+			background:url("../images/elem/arrowWhite.png") no-repeat right 13px;
+			display:block;
+			padding-right:20px;
+		}
+	}
+}
+
+
+/*==Credo & History page==*/
+.bgSection {
+	background: url("../images/bg/blueGradient.jpg") no-repeat top center #fff;
+	overflow:hidden;
+}
+
+.postionHolder{
+	margin:0px auto;
+	width:947px;
+	padding:65px 0 0 0;
+}
+
+.textAlign {
+	width:650px;
+	h3 {
+		font-size:44px;
+		line-height:46px;
+		padding-bottom:30px;
+		font-family: 'Rock-SansNormal';
+	}
+}
+
+.textAlign,
+.textAlign p,
+.textAlign div {
+	font-size:24px;
+	line-height:30px;
+	color: @white;
+	font-family: 'Rock-SansNormal';
+}
+
+.textAlign p {
+	padding-bottom:30px;
+}
+
+p.customText {
+	font-family: 'Rock-SerifBold';
+}
+
+p.arrowLink {
+	float:right;
+	clear:both;
+	font-size:13px;
+	line-height:15px;
+	a {
+		background:url("../images/elem/arrowWhite.png") no-repeat right 3px;
+		padding-right:20px;
+		&:hover {
+			text-decoration:underline;
+		}
+	}
+
+}
+
+.textPagination {
+	padding-left:50px;
+	h3 {
+		font-size:23px;
+		line-height:25px;
+		color:#26232c;
+		font-family: 'Rock-SansNormal';
+		font-weight:bold;
+		padding-bottom:25px;
+	}
+	p {
+		font-size:15px;
+		line-height:17px;
+		color:#7d7b80;
+		padding-bottom:20px;
+	}
+}
+
+/*==Career Stories page==*/
+.career-stories {
+	.boxesHolder {
+		.box {
+			position: relative;
+
+			a {
+				.boxText {
+					display: none;
+					position: absolute;
+					background: url("../images/career-stories/career-grid-rollover.png") no-repeat 0 0;
+					top: 0;
+					left: 0;
+					height: 300px;
+					width: 300px;
+					padding: 240px 0 0 20px;
+				}
+
+				&:hover {
+					.boxText {
+						display: block;
+
+						h4 {
+							font-family: 'Helvetica75Bold', Helvetica, sans-serif;
+							font-size: 21px;
+							text-transform: uppercase;
+							color: #fff;
+							padding: 0;
+							margin-top: 5px;
+						}
+
+						p {
+							font-family: 'Helvetica65Medium', Helvetica, sans-serif;
+							font-size: 14px;
+							color: #fff;
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

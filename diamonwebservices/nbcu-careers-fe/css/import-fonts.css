@@ -1,0 +1,9 @@
+/**==Helvetica45Light==**/
+
+@font-face {
+	font-family: 'Helvetica45Light';
+	src: url('../fonts/Helvetica45Light/HelveticaLight.eot');
+	src: local('☺'), url('../fonts/Helvetica45Light/fonts/HelveticaLight.woff') format('woff'), url('../fonts/Helvetica45Light/HelveticaLight.ttf') format('truetype'), url('fonts/HelveticaLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,20 @@
+{
+	"countries" : {
+		"id_1" : {
+			"name" : "Cuba",
+			"cities" : ["Havana"]
+		},
+		"id_2" : {
+			"name" : "Mexico",
+			"cities" : ["Mexico City"]
+		},
+		"id_3" : {
+			"name" : "USA",
+			"cities" : ["New York", "Los Angeles", "Hialeah", "Englewood Cliffs", "Orlando", "Universal City", "Burbank"]
+		},
+		"id_4" : {
+			"name" : "Brazil",
+			"cities" : ["Sao Paulo"]
+		}	
+	}	
+}
